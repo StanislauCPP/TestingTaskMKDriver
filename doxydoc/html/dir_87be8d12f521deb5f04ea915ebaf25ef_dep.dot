@@ -1,0 +1,11 @@
+digraph "SPI_commonAPI/src" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_6e2452b22e1817cda2ce74a9057f8355 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="SPI_commonAPI" fontname="Helvetica", fontsize="10", URL="dir_6e2452b22e1817cda2ce74a9057f8355.html"]
+  dir_af114b926c417a3c8e5aee9fa618a8e2 [shape=box label="include" URL="dir_af114b926c417a3c8e5aee9fa618a8e2.html"];
+  dir_87be8d12f521deb5f04ea915ebaf25ef [shape=box, label="src", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_87be8d12f521deb5f04ea915ebaf25ef.html"];
+  }
+  dir_87be8d12f521deb5f04ea915ebaf25ef->dir_af114b926c417a3c8e5aee9fa618a8e2 [headlabel="1", labeldistance=1.5 headhref="dir_000016_000015.html"];
+}
