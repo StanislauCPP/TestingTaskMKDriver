@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>TestingTask: SPI_commonAPI/include/SPI_commonAPI.h Source File</title>
+<title>TestingTask: TLE8242/SPI_commonAPI/include/SPI_commonAPI.h Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -61,7 +61,7 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_6e2452b22e1817cda2ce74a9057f8355.html">SPI_commonAPI</a></li><li class="navelem"><a class="el" href="dir_af114b926c417a3c8e5aee9fa618a8e2.html">include</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_a6da07358a8fdfee594e3931397d3564.html">TLE8242</a></li><li class="navelem"><a class="el" href="dir_2ceb4dd141ae72c41f74cc584f441de6.html">SPI_commonAPI</a></li><li class="navelem"><a class="el" href="dir_8fa5c31252856b25508c2bb45cda781e.html">include</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -72,24 +72,13 @@ $(function() {
 <a href="_s_p_i__common_a_p_i_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef SPI_COMMONAPI_H</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define SPI_COMMONAPI_H</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160; </div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="keyword">struct </span><a class="code" href="struct_s_p_i__t.html">SPI_t</a>;</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160; </div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="keyword">struct </span><a class="code" href="struct_s_p_i__t.html">SPI_t</a>* <a class="code" href="_s_p_i__common_a_p_i_8h.html#a596098b8a84508558145e05c07789372">createSPIObj</a>(<span class="keywordtype">short</span> <a class="code" href="struct_s_p_i__t.html#aae35404e5089f7ee695fe248e48b1c74">msgSize</a>);</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160; </div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="keywordtype">int</span> <a class="code" href="_s_p_i__common_a_p_i_8h.html#aa66d2a210063b423c52b8593af8fc344">sent</a>(<span class="keyword">const</span> <span class="keywordtype">void</span>* <a class="code" href="struct_s_p_i__t.html#a735984d41155bc1032e09bece8f8d66d">data</a>, <span class="keyword">struct</span> <a class="code" href="struct_s_p_i__t.html">SPI_t</a>* sObj);</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160; </div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="keyword">const</span> <span class="keywordtype">void</span>* <a class="code" href="_s_p_i__common_a_p_i_8h.html#a7fdb29777c7d56ba02bf23ef8667c3a6">SPIData</a>(<span class="keyword">const</span> <span class="keyword">struct</span> <a class="code" href="struct_s_p_i__t.html">SPI_t</a>* sObj);</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160; </div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="keywordtype">void</span> <a class="code" href="_s_p_i__common_a_p_i_8h.html#acc7dd9d37d8b23ffef24ee9a69690b55">deleteSPIObj</a>(<span class="keyword">struct</span> <a class="code" href="struct_s_p_i__t.html">SPI_t</a>** sObjAdr);</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160; </div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="ttc" id="a_s_p_i__common_a_p_i_8h_html_a596098b8a84508558145e05c07789372"><div class="ttname"><a href="_s_p_i__common_a_p_i_8h.html#a596098b8a84508558145e05c07789372">createSPIObj</a></div><div class="ttdeci">struct SPI_t * createSPIObj(short msgSize)</div><div class="ttdoc">creating SPI API object</div><div class="ttdef"><b>Definition:</b> SPI_commonAPI.c:34</div></div>
-<div class="ttc" id="a_s_p_i__common_a_p_i_8h_html_a7fdb29777c7d56ba02bf23ef8667c3a6"><div class="ttname"><a href="_s_p_i__common_a_p_i_8h.html#a7fdb29777c7d56ba02bf23ef8667c3a6">SPIData</a></div><div class="ttdeci">const void * SPIData(const struct SPI_t *sObj)</div><div class="ttdoc">getting pointer on response data from Wrapper SPI API object</div><div class="ttdef"><b>Definition:</b> SPI_commonAPI.c:62</div></div>
-<div class="ttc" id="a_s_p_i__common_a_p_i_8h_html_aa66d2a210063b423c52b8593af8fc344"><div class="ttname"><a href="_s_p_i__common_a_p_i_8h.html#aa66d2a210063b423c52b8593af8fc344">sent</a></div><div class="ttdeci">int sent(const void *data, struct SPI_t *sObj)</div><div class="ttdoc">senting message</div><div class="ttdef"><b>Definition:</b> SPI_commonAPI.c:52</div></div>
-<div class="ttc" id="a_s_p_i__common_a_p_i_8h_html_acc7dd9d37d8b23ffef24ee9a69690b55"><div class="ttname"><a href="_s_p_i__common_a_p_i_8h.html#acc7dd9d37d8b23ffef24ee9a69690b55">deleteSPIObj</a></div><div class="ttdeci">void deleteSPIObj(struct SPI_t **sObjAdr)</div><div class="ttdoc">deleting SPI API object</div><div class="ttdef"><b>Definition:</b> SPI_commonAPI.c:67</div></div>
-<div class="ttc" id="astruct_s_p_i__t_html"><div class="ttname"><a href="struct_s_p_i__t.html">SPI_t</a></div><div class="ttdoc">Wrapper SPI response.</div><div class="ttdef"><b>Definition:</b> SPI_commonAPI.c:12</div></div>
-<div class="ttc" id="astruct_s_p_i__t_html_a735984d41155bc1032e09bece8f8d66d"><div class="ttname"><a href="struct_s_p_i__t.html#a735984d41155bc1032e09bece8f8d66d">SPI_t::data</a></div><div class="ttdeci">void * data</div><div class="ttdoc">response data</div><div class="ttdef"><b>Definition:</b> SPI_commonAPI.c:13</div></div>
-<div class="ttc" id="astruct_s_p_i__t_html_aae35404e5089f7ee695fe248e48b1c74"><div class="ttname"><a href="struct_s_p_i__t.html#aae35404e5089f7ee695fe248e48b1c74">SPI_t::msgSize</a></div><div class="ttdeci">short msgSize</div><div class="ttdoc">response data size in bytes</div><div class="ttdef"><b>Definition:</b> SPI_commonAPI.c:14</div></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;stdint.h&gt;</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160; </div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;uint8_t <a class="code" href="_s_p_i__common_a_p_i_8h.html#a7c2f771fa52ff6555ef2c8035e554e30">send</a>(uint8_t sByte);</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160; </div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160; </div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="ttc" id="a_s_p_i__common_a_p_i_8h_html_a7c2f771fa52ff6555ef2c8035e554e30"><div class="ttname"><a href="_s_p_i__common_a_p_i_8h.html#a7c2f771fa52ff6555ef2c8035e554e30">send</a></div><div class="ttdeci">uint8_t send(uint8_t sByte)</div><div class="ttdoc">send 1 byte</div><div class="ttdef"><b>Definition:</b> SPI_commonAPI.c:21</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

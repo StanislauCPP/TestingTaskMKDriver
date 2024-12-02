@@ -1,10 +1,12 @@
 var indexSectionsWithContent =
 {
-  0: "cdemrst",
+  0: "abdeimrstv",
   1: "st",
   2: "mst",
-  3: "cdemst",
-  4: "dmrst"
+  3: "emst",
+  4: "abdeirv",
+  5: "t",
+  6: "d"
 };
 
 var indexSectionNames =
@@ -13,7 +15,9 @@ var indexSectionNames =
   1: "classes",
   2: "files",
   3: "functions",
-  4: "variables"
+  4: "variables",
+  5: "enums",
+  6: "enumvalues"
 };
 
 var indexSectionLabels =
@@ -22,6 +26,8 @@ var indexSectionLabels =
   1: "Data Structures",
   2: "Files",
   3: "Functions",
-  4: "Variables"
+  4: "Variables",
+  5: "Enumerations",
+  6: "Enumerator"
 };
 

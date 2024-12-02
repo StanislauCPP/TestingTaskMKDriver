@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['msgsize_32',['msgSize',['../struct_s_p_i__t.html#aae35404e5089f7ee695fe248e48b1c74',1,'SPI_t']]]
+  ['buffsize_51',['buffSize',['../struct_t_l_e8242_handler__t.html#ac8584c7259c144c516e707b2abfd8813',1,'TLE8242Handler_t']]]
 ];

@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>TestingTask: SPI_commonAPI/include/SPI_commonAPI.h File Reference</title>
+<title>TestingTask: TLE8242/SPI_commonAPI/include/SPI_commonAPI.h File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -61,7 +61,7 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_6e2452b22e1817cda2ce74a9057f8355.html">SPI_commonAPI</a></li><li class="navelem"><a class="el" href="dir_af114b926c417a3c8e5aee9fa618a8e2.html">include</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_a6da07358a8fdfee594e3931397d3564.html">TLE8242</a></li><li class="navelem"><a class="el" href="dir_2ceb4dd141ae72c41f74cc584f441de6.html">SPI_commonAPI</a></li><li class="navelem"><a class="el" href="dir_8fa5c31252856b25508c2bb45cda781e.html">include</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -72,148 +72,55 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
-<p>Very primitive (simple) emulation of Serial Peripheral Bus.  
+<p>Very primitive (simple) emulation of Serial Peripheral Bus. Created for Infineon TLE8242.  
 <a href="#details">More...</a></p>
-<div class="textblock"><div class="dynheader">
-This graph shows which files directly or indirectly include this file:</div>
+<div class="textblock"><code>#include &lt;stdint.h&gt;</code><br />
+</div><div class="textblock"><div class="dynheader">
+Include dependency graph for SPI_commonAPI.h:</div>
 <div class="dyncontent">
-<div class="center"><img src="_s_p_i__common_a_p_i_8h__dep__incl.png" border="0" usemap="#a_s_p_i__common_a_p_i_2include_2_s_p_i__common_a_p_i_8hdep" alt=""/></div>
+<div class="center"><img src="_s_p_i__common_a_p_i_8h__incl.png" border="0" usemap="#a_t_l_e8242_2_s_p_i__common_a_p_i_2include_2_s_p_i__common_a_p_i_8h" alt=""/></div>
+<map name="a_t_l_e8242_2_s_p_i__common_a_p_i_2include_2_s_p_i__common_a_p_i_8h" id="a_t_l_e8242_2_s_p_i__common_a_p_i_2include_2_s_p_i__common_a_p_i_8h">
+<area shape="rect" title="Very primitive (simple) emulation of Serial Peripheral Bus. Created for Infineon TLE8242." alt="" coords="5,5,200,47"/>
+<area shape="rect" title=" " alt="" coords="67,95,138,121"/>
+</map>
 </div>
 </div>
 <p><a href="_s_p_i__common_a_p_i_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a596098b8a84508558145e05c07789372"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="struct_s_p_i__t.html">SPI_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_s_p_i__common_a_p_i_8h.html#a596098b8a84508558145e05c07789372">createSPIObj</a> (short msgSize)</td></tr>
-<tr class="memdesc:a596098b8a84508558145e05c07789372"><td class="mdescLeft">&#160;</td><td class="mdescRight">creating SPI API object  <a href="_s_p_i__common_a_p_i_8h.html#a596098b8a84508558145e05c07789372">More...</a><br /></td></tr>
-<tr class="separator:a596098b8a84508558145e05c07789372"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa66d2a210063b423c52b8593af8fc344"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_s_p_i__common_a_p_i_8h.html#aa66d2a210063b423c52b8593af8fc344">sent</a> (const void *data, struct <a class="el" href="struct_s_p_i__t.html">SPI_t</a> *sObj)</td></tr>
-<tr class="memdesc:aa66d2a210063b423c52b8593af8fc344"><td class="mdescLeft">&#160;</td><td class="mdescRight">senting message  <a href="_s_p_i__common_a_p_i_8h.html#aa66d2a210063b423c52b8593af8fc344">More...</a><br /></td></tr>
-<tr class="separator:aa66d2a210063b423c52b8593af8fc344"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7fdb29777c7d56ba02bf23ef8667c3a6"><td class="memItemLeft" align="right" valign="top">const void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_s_p_i__common_a_p_i_8h.html#a7fdb29777c7d56ba02bf23ef8667c3a6">SPIData</a> (const struct <a class="el" href="struct_s_p_i__t.html">SPI_t</a> *sObj)</td></tr>
-<tr class="memdesc:a7fdb29777c7d56ba02bf23ef8667c3a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">getting pointer on response data from Wrapper SPI API object  <a href="_s_p_i__common_a_p_i_8h.html#a7fdb29777c7d56ba02bf23ef8667c3a6">More...</a><br /></td></tr>
-<tr class="separator:a7fdb29777c7d56ba02bf23ef8667c3a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acc7dd9d37d8b23ffef24ee9a69690b55"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_s_p_i__common_a_p_i_8h.html#acc7dd9d37d8b23ffef24ee9a69690b55">deleteSPIObj</a> (struct <a class="el" href="struct_s_p_i__t.html">SPI_t</a> **sObjAdr)</td></tr>
-<tr class="memdesc:acc7dd9d37d8b23ffef24ee9a69690b55"><td class="mdescLeft">&#160;</td><td class="mdescRight">deleting SPI API object  <a href="_s_p_i__common_a_p_i_8h.html#acc7dd9d37d8b23ffef24ee9a69690b55">More...</a><br /></td></tr>
-<tr class="separator:acc7dd9d37d8b23ffef24ee9a69690b55"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7c2f771fa52ff6555ef2c8035e554e30"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_s_p_i__common_a_p_i_8h.html#a7c2f771fa52ff6555ef2c8035e554e30">send</a> (uint8_t sByte)</td></tr>
+<tr class="memdesc:a7c2f771fa52ff6555ef2c8035e554e30"><td class="mdescLeft">&#160;</td><td class="mdescRight">send 1 byte  <a href="_s_p_i__common_a_p_i_8h.html#a7c2f771fa52ff6555ef2c8035e554e30">More...</a><br /></td></tr>
+<tr class="separator:a7c2f771fa52ff6555ef2c8035e554e30"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Very primitive (simple) emulation of Serial Peripheral Bus. </p>
+<div class="textblock"><p>Very primitive (simple) emulation of Serial Peripheral Bus. Created for Infineon TLE8242. </p>
 </div><h2 class="groupheader">Function Documentation</h2>
-<a id="a596098b8a84508558145e05c07789372"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a596098b8a84508558145e05c07789372">&#9670;&nbsp;</a></span>createSPIObj()</h2>
+<a id="a7c2f771fa52ff6555ef2c8035e554e30"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7c2f771fa52ff6555ef2c8035e554e30">&#9670;&nbsp;</a></span>send()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">struct <a class="el" href="struct_s_p_i__t.html">SPI_t</a>* createSPIObj </td>
+          <td class="memname">uint8_t send </td>
           <td>(</td>
-          <td class="paramtype">short&#160;</td>
-          <td class="paramname"><em>msgSize</em></td><td>)</td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>sByte</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>creating SPI API object </p>
+<p>send 1 byte </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">msgSize</td><td>size of response message </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">sByte</td><td>sent byte </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>pointer on Wrapper SPI API object </dd></dl>
-
-</div>
-</div>
-<a id="acc7dd9d37d8b23ffef24ee9a69690b55"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acc7dd9d37d8b23ffef24ee9a69690b55">&#9670;&nbsp;</a></span>deleteSPIObj()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void deleteSPIObj </td>
-          <td>(</td>
-          <td class="paramtype">struct <a class="el" href="struct_s_p_i__t.html">SPI_t</a> **&#160;</td>
-          <td class="paramname"><em>sObjAdr</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>deleting SPI API object </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">sObjAdr</td><td>address of pointer on Wrapper SPI API object </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a id="aa66d2a210063b423c52b8593af8fc344"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa66d2a210063b423c52b8593af8fc344">&#9670;&nbsp;</a></span>sent()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int sent </td>
-          <td>(</td>
-          <td class="paramtype">const void *&#160;</td>
-          <td class="paramname"><em>data</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">struct <a class="el" href="struct_s_p_i__t.html">SPI_t</a> *&#160;</td>
-          <td class="paramname"><em>sObj</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>senting message </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">data</td><td>data of sentable message </td></tr>
-    <tr><td class="paramdir">[in,out]</td><td class="paramname">sObj</td><td>Wrapper SPI API object </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>0 if SPI API worked normal, -1 how as error code </dd></dl>
-
-</div>
-</div>
-<a id="a7fdb29777c7d56ba02bf23ef8667c3a6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7fdb29777c7d56ba02bf23ef8667c3a6">&#9670;&nbsp;</a></span>SPIData()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const void* SPIData </td>
-          <td>(</td>
-          <td class="paramtype">const struct <a class="el" href="struct_s_p_i__t.html">SPI_t</a> *&#160;</td>
-          <td class="paramname"><em>sObj</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>getting pointer on response data from Wrapper SPI API object </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">sObj</td><td>Wrapper SPI API object </td></tr>
-  </table>
-  </dd>
-</dl>
+<dl class="section return"><dt>Returns</dt><dd>1 byte response </dd></dl>
+<p>&lt; if write flag setted 1, we need to set its in 0 for getiing correct message number</p>
 
 </div>
 </div>

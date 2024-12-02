@@ -62,84 +62,54 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#func-members">Functions</a> &#124;
-<a href="#var-members">Variables</a>  </div>
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">main.c File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p><a class="el" href="struct_t_l_e8242.html" title="Wrapping TLE8242 settings.">TLE8242</a> driver working imitation.  
+<p>TLE8242 driver program.  
 <a href="#details">More...</a></p>
 <div class="textblock"><code>#include &lt;stdio.h&gt;</code><br />
 <code>#include &lt;stdlib.h&gt;</code><br />
-<code>#include &quot;<a class="el" href="_s_p_i__common_a_p_i_8h_source.html">SPI_commonAPI.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="_t_l_e8242_8h_source.html">TLE8242.h</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for main.c:</div>
 <div class="dyncontent">
 <div class="center"><img src="main_8c__incl.png" border="0" usemap="#amain_8c" alt=""/></div>
+<map name="amain_8c" id="amain_8c">
+<area shape="rect" title="TLE8242 driver program." alt="" coords="99,5,165,32"/>
+<area shape="rect" title=" " alt="" coords="5,80,72,107"/>
+<area shape="rect" title=" " alt="" coords="97,80,167,107"/>
+<area shape="rect" href="_t_l_e8242_8h.html" title="Implementation Wrapping TLE8242 settings and methods of transformation and diagnostic read." alt="" coords="191,80,281,107"/>
+<area shape="rect" title=" " alt="" coords="201,155,271,181"/>
+</map>
 </div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ad60191431bfc1f239789c6c46dc9439c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8c.html#ad60191431bfc1f239789c6c46dc9439c">errAct</a> (const char *errMsg, struct <a class="el" href="struct_s_p_i__t.html">SPI_t</a> **SPIObjAdr, int errCode)</td></tr>
-<tr class="memdesc:ad60191431bfc1f239789c6c46dc9439c"><td class="mdescLeft">&#160;</td><td class="mdescRight">error Action  <a href="main_8c.html#ad60191431bfc1f239789c6c46dc9439c">More...</a><br /></td></tr>
-<tr class="separator:ad60191431bfc1f239789c6c46dc9439c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a840291bc02cba5474a4cb46a9b9566fe"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8c.html#a840291bc02cba5474a4cb46a9b9566fe">main</a> (void)</td></tr>
-<tr class="memdesc:a840291bc02cba5474a4cb46a9b9566fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">entry poin of driver program  <a href="main_8c.html#a840291bc02cba5474a4cb46a9b9566fe">More...</a><br /></td></tr>
+<tr class="memitem:a3e9af336916119eca9944c3a1381d251"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8c.html#a3e9af336916119eca9944c3a1381d251">errorProgramConclusion</a> (<a class="el" href="struct_t_l_e8242_handler__t.html">TLE8242Handler_t</a> **handlerAdr, int errCode)</td></tr>
+<tr class="memdesc:a3e9af336916119eca9944c3a1381d251"><td class="mdescLeft">&#160;</td><td class="mdescRight">Action if we catch error (errcode &lt; 0);.  <a href="main_8c.html#a3e9af336916119eca9944c3a1381d251">More...</a><br /></td></tr>
+<tr class="separator:a3e9af336916119eca9944c3a1381d251"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a840291bc02cba5474a4cb46a9b9566fe"><td class="memItemLeft" align="right" valign="top"><a id="a840291bc02cba5474a4cb46a9b9566fe"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8c.html#a840291bc02cba5474a4cb46a9b9566fe">main</a> (void)</td></tr>
+<tr class="memdesc:a840291bc02cba5474a4cb46a9b9566fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">entry point of driver program <br /></td></tr>
 <tr class="separator:a840291bc02cba5474a4cb46a9b9566fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
-Variables</h2></td></tr>
-<tr class="memitem:a54c47ca481c683dcd209de989686244b"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="struct_t_l_e8242.html">TLE8242</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8c.html#a54c47ca481c683dcd209de989686244b">TLE8242_mk</a></td></tr>
-<tr class="memdesc:a54c47ca481c683dcd209de989686244b"><td class="mdescLeft">&#160;</td><td class="mdescRight">start settings for MK MSG 0 (R) 1 (W) 2 (W) 3 (W) 4 (R) 5 (R)  <a href="main_8c.html#a54c47ca481c683dcd209de989686244b">More...</a><br /></td></tr>
-<tr class="separator:a54c47ca481c683dcd209de989686244b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p><a class="el" href="struct_t_l_e8242.html" title="Wrapping TLE8242 settings.">TLE8242</a> driver working imitation. </p>
-<dl class="section pre"><dt>Precondition</dt><dd>MSG - sent - response </dd>
-<dd>
-0 - 00000000000000000000000000000000 - 00000000110000010000001000000000 </dd>
-<dd>
-1 - 10000001111111111111111100000000 - 00000001111111111111111100000000 </dd>
-<dd>
-2 - 10000001010111010111010111010111 - 00000001010111010111010111010111 </dd>
-<dd>
-3 - 10000011010111010111010111010111 - 00000011010111010111010111010111 </dd>
-<dd>
-4 - 00000100000000000000000000000000 - 00000100010100010100010100010100 Diagnostic </dd>
-<dd>
-5 - 00000101000000000000000000000000 - 00000101010100010100010100010100 Diagnostic</dd>
-<dd>
-MSG - description <br  />
- </dd>
-<dd>
-0 - IC Version / Manufacturer; </dd>
-<dd>
-1 - PWM for all channels, all faults variety </dd>
-<dd>
-2,3 - Short to battery 0.9V Short to Battery Retry Time PWM 16 * 7 - all channels </dd>
-<dd>
-4,5 - Diagnostic read. Perhaps, for normal working response must have tested = 1, fault = 0 </dd></dl>
+<div class="textblock"><p>TLE8242 driver program. </p>
 </div><h2 class="groupheader">Function Documentation</h2>
-<a id="ad60191431bfc1f239789c6c46dc9439c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad60191431bfc1f239789c6c46dc9439c">&#9670;&nbsp;</a></span>errAct()</h2>
+<a id="a3e9af336916119eca9944c3a1381d251"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3e9af336916119eca9944c3a1381d251">&#9670;&nbsp;</a></span>errorProgramConclusion()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int errAct </td>
+          <td class="memname">void errorProgramConclusion </td>
           <td>(</td>
-          <td class="paramtype">const char *&#160;</td>
-          <td class="paramname"><em>errMsg</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">struct <a class="el" href="struct_s_p_i__t.html">SPI_t</a> **&#160;</td>
-          <td class="paramname"><em>SPIObjAdr</em>, </td>
+          <td class="paramtype"><a class="el" href="struct_t_l_e8242_handler__t.html">TLE8242Handler_t</a> **&#160;</td>
+          <td class="paramname"><em>handlerAdr</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -155,59 +125,14 @@ MSG - description <br  />
       </table>
 </div><div class="memdoc">
 
-<p>error Action </p>
-<p>Printing error message and delete Wrapper SPI API object </p><dl class="params"><dt>Parameters</dt><dd>
+<p>Action if we catch error (errcode &lt; 0);. </p>
+<dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">errMsg</td><td>error message </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">SPIObjAdr</td><td>address of pointer on Wrapper SPI API object </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">errCode</td><td>error code. Error code is must determined from external Interface. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">handlerAdr</td><td>- adress of TLE8242 object handler </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">errCode</td><td>- code of catched error </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>error code. In this example we return 1 or 2 or 3 only for example. </dd></dl>
-
-</div>
-</div>
-<a id="a840291bc02cba5474a4cb46a9b9566fe"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a840291bc02cba5474a4cb46a9b9566fe">&#9670;&nbsp;</a></span>main()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int main </td>
-          <td>(</td>
-          <td class="paramtype">void&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>entry poin of driver program </p>
-<p>cycle for preworking settings assignment inside MK</p>
-<p>cycle for diagnostic checking in working time</p>
-<p>&lt; MSG: 4, 5 - for diagnostic</p>
-
-</div>
-</div>
-<h2 class="groupheader">Variable Documentation</h2>
-<a id="a54c47ca481c683dcd209de989686244b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a54c47ca481c683dcd209de989686244b">&#9670;&nbsp;</a></span>TLE8242_mk</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">struct <a class="el" href="struct_t_l_e8242.html">TLE8242</a> TLE8242_mk</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">                            {0x0        ,0x81FFFF00 ,0x815D75D7 ,0x835D75D7 ,0x4000000  ,0x5000000},</div>
-<div class="line">                            {0xC10200   ,0x1FFFF00  ,0x15D75D7  ,0x35D75D7  ,0x4514514  ,0x5514514} }</div>
-</div><!-- fragment -->
-<p>start settings for MK MSG 0 (R) 1 (W) 2 (W) 3 (W) 4 (R) 5 (R) </p>
 
 </div>
 </div>

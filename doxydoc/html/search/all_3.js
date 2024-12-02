@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['main_4',['main',['../main_8c.html#a840291bc02cba5474a4cb46a9b9566fe',1,'main.c']]],
-  ['main_2ec_5',['main.c',['../main_8c.html',1,'']]],
-  ['msgsize_6',['msgSize',['../struct_s_p_i__t.html#aae35404e5089f7ee695fe248e48b1c74',1,'SPI_t']]]
+  ['enablepin_5fstate_9',['enablePin_State',['../struct_t_l_e8242_handler__t.html#ac91a86602e8df7856d91450c8d42aaff',1,'TLE8242Handler_t']]],
+  ['errorprogramconclusion_10',['errorProgramConclusion',['../main_8c.html#a3e9af336916119eca9944c3a1381d251',1,'main.c']]]
 ];
